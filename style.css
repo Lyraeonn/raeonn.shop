@@ -35,14 +35,6 @@ header {
   justify-content: space-between;
 }
 
-.navbar #icon{
-    width: 70px;
-    height: 70px;
-    margin-bottom: 2px;
-    margin-left: -80px;
-    object-fit: cover;
-}
-
 .navbar input#menu-toggler {
   display: none;
 }
@@ -62,8 +54,9 @@ header {
   list-style: none;
 }
 
-.navbar .logo a {
-    margin-right: 780px;
+.navbar .icon {
+  margin-right: 50px;
+  width: 64px;
 }
 
 header a, footer a {
@@ -121,13 +114,12 @@ header a:hover, footer a:hover {
 }
 
 #bgvideo {
-    max-height: 150%;
-    height: 150%;
-    width: 100%;
-    padding-top: 70px;
-    position: absolute;
-    filter: blur(7px);
-    z-index: -100;
+  height: auto;
+  width: auto;
+  padding-top: 70px;
+  position: absolute;
+  filter: blur(7px);
+  z-index: -100;
 }
 
 .content a {
