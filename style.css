@@ -232,7 +232,25 @@ section .cards .card {
     margin-top: 5px;
 }
 
-#orderbutton {
+#orderbutton1 {
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px 25px;
+    padding: 13px 30px;
+    
+    border-radius: 5px;
+    background: #7700ff;
+    transition: 0.4s ease;
+    text-decoration: none;
+    border: 2px solid #dadada;
+    outline: none;
+    border-color: #7700ff;
+    box-shadow: 0 0 10px #7700ff;
+}
+
+#orderbutton2 {
     color: #ffffff;
     display: block;
     text-transform: uppercase;
