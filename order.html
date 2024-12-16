@@ -42,9 +42,8 @@
       </div>
 
        <!-- Login button -->
-      <button id="submit" onclick="order(num,server,zone,item)">Submit order</button>
-
-      <p class="home">Unsure? <a href="https://raeonn.shop"> Check Prices.</a></p>
+      <a id="order" onclick="order(num,server,zone,item)">Submit order</a>
+      <a id="home" href='https://raeonn.shop'>go back?</a>
       <script>
         function order(num,server,zone,item){
           const n = document.getElementById('num');

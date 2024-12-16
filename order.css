@@ -30,6 +30,7 @@ body {
     outline: none;
     border-color: #ff2800;
     box-shadow: 0 0 10px #ff2800;
+    padding-bottom: 130px;
 }
 
 .login_form .logo{
@@ -91,41 +92,72 @@ form .input_box {
     position: relative;
 }
 
-a {
-    text-decoration: none;
-    color: #ff2800;
-    font-weight: 500;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 /* Login button styling */
-form button {
-    width: 100%;
-    height: 56px;
+#order{
+    width: auto;
+    text-decoration: none;
+    height: 55px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 15px;
+    margin-left: 70px;
     border-radius: 5px;
     background: #ff2800;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+    text-align: center;
     text-transform: uppercase;
     cursor: pointer;
-    margin-bottom: 28px;
+    margin-bottom: 8px;
     transition: 0.3s ease;
     border: 2px solid #dadada;
     outline: none;
     border-color: #ff2800;
     box-shadow: 0 0 10px #ff2800;
+    position: absolute;
 }
 
-form button:hover {
+#order:hover {
     background: #00ff01;
     border: 2px solid #dadada;
     outline: none;
     border-color: #00ff01;
     box-shadow: 0 0 10px #00ff01;
+}
+
+#home{
+    width: auto;
+    text-decoration: none;
+    height: 55px;
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-top: 15px;
+    margin-left: 70px;
+    border-radius: 5px;
+    background: #ff2800;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 63px;
+    transition: 0.3s ease;
+    border: 2px solid #dadada;
+    outline: none;
+    border-color: #ff2800;
+    box-shadow: 0 0 10px #ff2800;
+    position: absolute;
+}
+
+#home:hover {
+    background: #ff0000;
+    border: 2px solid #dadada;
+    outline: none;
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
 }
 
 @media (max-width: 768px) { 
