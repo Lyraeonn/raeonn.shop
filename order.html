@@ -20,31 +20,41 @@
       <!-- Name input box -->
       <div class="input_box">
         <label for="name">Phone Number :</label>
-        <input type="text" id="name" placeholder="Enter your phone number (+60xxx)" required />
+        <input type="text" id='num' placeholder="Enter your phone number (+60xxx)" required />
       </div>
 
       <!-- Id input box -->
       <div class="input_box">
         <label for="name">Server Id :</label>
-        <input type="text" placeholder="Enter your MLBB Server Id" required />
+        <input type="text" id='server' placeholder="Enter your MLBB Server Id" required />
       </div>
         
         <!-- ZoneId input box -->
       <div class="input_box">
         <label for="name">Zone Id :</label>
-        <input type="text" placeholder="Enter your MLBB Zone Id" required />
+        <input type="text" id='zone' placeholder="Enter your MLBB Zone Id" required />
       </div>
         
          <!-- Item input box -->
       <div class="input_box">
         <label for="name">Item :</label>
-        <input type="text" placeholder="Example: Weekly Diamond Pass" required />
+        <input type="text" id='item' placeholder="Example: Weekly Diamond Pass" required />
       </div>
 
        <!-- Login button -->
-      <button type="submit" href="https://wa.me/60149357109">Submit order</button>
+      <button id="submit" onclick="order(num,server,zone,item)">Submit order</button>
 
       <p class="home">Unsure? <a href="https://raeonn.shop"> Check Prices.</a></p>
+      <script>
+        function order(num,server,zone,item){
+          const n = document.getElementById('num');
+          const s = document.getElementById('server');
+          const z = document.getElementById('zone');
+          const i = document.getElementById('item');
+          let textto = `order+number+${n.value}\n+server+id+${s.value}\n+zone+id+${z.value}\n+item+${i.value}`;
+          location.href="https://wa.me/601151722487?text="+textto;
+        }
+      </script>
     </form>
   </div>
 </body>
