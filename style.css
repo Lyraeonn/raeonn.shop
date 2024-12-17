@@ -230,6 +230,7 @@ section .cards .card {
     color: #fff;
     padding: 0 15px;
     margin-top: 5px;
+    padding-bottom: 10px;
 }
 
 #orderbutton1 {
@@ -266,6 +267,30 @@ section .cards .card {
     outline: none;
     border-color: #ff2800;
     box-shadow: 0 0 10px #ff2800;
+}
+
+#valorant{
+  border: 2px solid #dadada;
+  outline: none;
+  border-color: #ff0000;
+  box-shadow: 0 0 10px #ff0000;
+}
+
+#orderbutton3 {
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px 25px;
+    padding: 13px 30px;
+    border-radius: 5px;
+    background: #ff0000;
+    transition: 0.4s ease;
+    text-decoration: none;
+    border: 2px solid #dadada;
+    outline: none;
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
 }
 
 .socials p{
@@ -432,30 +457,8 @@ footer a {
   padding: 0;
 }
 
-@media screen and (max-width: 860px) {
-  .navbar .all-links {
-    position: fixed;
-    left: -100%;
-    width: 300px;
-    display: block;
-    height: 100vh;
-    top: 75px;
-    background: #333;
-    transition: left 0.3s ease;
-  }
-
-  .navbar #menu-toggler:checked~.all-links {
-    left: 0;
-  }
-
-  .navbar .all-links li {
-    font-size: 18px;
-  }
-
-  .navbar #hamburger-btn {
-    display: block;
-  }
-
+@media screen and (max-width: 760px) {
+  
   section > p {
     text-align: center;
   }

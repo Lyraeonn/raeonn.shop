@@ -26,8 +26,8 @@ body {
     border: 2px solid white;
     color: white;
     text-align: center;
-    border-color: #ff2800;
-    box-shadow: 0 0 10px #ff2800;
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
     padding-left: 220px;
     padding-right: 220px;
     margin-left: auto;
@@ -47,8 +47,8 @@ th, td{
     text-align: center;
     padding: 8px;
     border: 2px solid white;
-    border-color: #ff2800;
-    box-shadow: 0 0 10px #ff2800;
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
 }
 
 th{
@@ -61,7 +61,7 @@ a{
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 5px;
-    background: #ff2800;
+    background: #ff0000;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -71,8 +71,8 @@ a{
     transition: 0.3s ease;
     border: 2px solid #dadada;
     outline: none;
-    border-color: #ff2800;
-    box-shadow: 0 0 10px #ff2800;
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
     display: inline-block;
 }
 
