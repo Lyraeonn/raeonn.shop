@@ -55,6 +55,7 @@ header {
 }
 
 .navbar .icon {
+  border-radius: 8px;
   margin-right: 50px;
   width: 64px;
 }
@@ -269,6 +270,60 @@ section .cards .card {
     box-shadow: 0 0 10px #ff2800;
 }
 
+#orderbuttonpubg {
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px 25px;
+    padding: 13px 30px;
+    
+    border-radius: 5px;
+    background: #ff2800;
+    transition: 0.4s ease;
+    text-decoration: none;
+    border: 2px solid #dadada;
+    outline: none;
+    border-color: #ff2800;
+    box-shadow: 0 0 10px #ff2800;
+}
+
+#orderbuttonff {
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px 25px;
+    padding: 13px 30px;
+    
+    border-radius: 5px;
+    background: #ff2800;
+    transition: 0.4s ease;
+    text-decoration: none;
+    border: 2px solid #dadada;
+    outline: none;
+    border-color: #ff2800;
+    box-shadow: 0 0 10px #ff2800;
+}
+
+#orderbuttonpgr {
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px 25px;
+    padding: 13px 30px;
+    
+    border-radius: 5px;
+    background: #ff0000;
+    transition: 0.4s ease;
+    text-decoration: none;
+    border: 2px solid #dadada;
+    outline: none;
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
 #valorant{
   border: 2px solid #dadada;
   outline: none;
@@ -345,6 +400,23 @@ section .cards .card {
     box-shadow: 0 0 10px #fff;
 }
 
+#orderbuttonbs {
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px 25px;
+    padding: 13px 30px;
+    border-radius: 5px;
+    background: #00c3ff;
+    transition: 0.4s ease;
+    text-decoration: none;
+    border: 2px solid #dadada;
+    outline: none;
+    border-color: #00c3ff;
+    box-shadow: 0 0 10px #00c3ff;
+}
+
 .socials p{
   text-decoration: underline;
 }
@@ -415,6 +487,14 @@ section .cards .card {
   border-color: #fff;
   box-shadow: 0 0 10px #fff;
 }
+
+#bs {
+  border: 2px solid #dadada;
+  outline: none;
+  border-color: #00c3ff;
+  box-shadow: 0 0 10px #00c3ff;
+}
+
 
 
 .socialcards .socialcards2 img {
