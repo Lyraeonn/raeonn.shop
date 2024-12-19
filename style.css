@@ -417,6 +417,40 @@ section .cards .card {
     box-shadow: 0 0 10px #00c3ff;
 }
 
+#orderbuttongenshin {
+    color: #000000;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px 25px;
+    padding: 13px 30px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.4s ease;
+    text-decoration: none;
+    border: 2px solid #dadada;
+    outline: none;
+    border-color: #fff;
+    box-shadow: 0 0 10px #fff;
+}
+
+#orderbuttonhsr {
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px 25px;
+    padding: 13px 30px;
+    border-radius: 5px;
+    background: #ff00b9;
+    transition: 0.4s ease;
+    text-decoration: none;
+    border: 2px solid #dadada;
+    outline: none;
+    border-color: #ff00b9;
+    box-shadow: 0 0 10px #ff00b9;
+}
+
 .socials p{
   text-decoration: underline;
 }
@@ -495,6 +529,19 @@ section .cards .card {
   box-shadow: 0 0 10px #00c3ff;
 }
 
+#genshin {
+  border: 2px solid #dadada;
+  outline: none;
+  border-color: #fff;
+  box-shadow: 0 0 10px #fff;
+}
+
+#hsr {
+  border: 2px solid #dadada;
+  outline: none;
+  border-color: #ff00b9;
+  box-shadow: 0 0 10px #ff00b9;
+}
 
 
 .socialcards .socialcards2 img {
