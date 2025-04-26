@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raeonn Store | Order</title>
+    <link rel="icon" type="image/x-icon" href="media/raeonnlogo.png">
+  <link rel="stylesheet" href="order.css" />
+</head>
+<body>
+  <div class="login_form">
+    <form action="#">
+       <img src="media/raeonnlogo.png" class="logo">
+      <h3>Order Form</h3>
+      <!-- Login option separator -->
+      <p class="separator">
+        <span>proceed?</span>
+      </p>
+        
+      <!-- Name input box -->
+      <div class="input_box">
+        <label for="name">Phone Number :</label>
+        <input type="text" id='num' placeholder="Enter your phone number (+60xxx)" required />
+      </div>
+
+      <!-- Id input box -->
+      <div class="input_box">
+        <label for="name">Server Id :</label>
+        <input type="text" id='server' placeholder="Enter your Server Id" required />
+      </div>
+        
+        <!-- ZoneId input box -->
+      <div class="input_box">
+        <label for="name">Zone Id :</label>
+        <input type="text" id='zone' placeholder="(Leave blank if dont have)" required />
+      </div>
+        
+         <!-- Item input box -->
+      <div class="input_box">
+        <label for="name">Item :</label>
+        <input type="text" id='item' placeholder="Ex: Weekly Diamond Pass / 660 UC" required />
+      </div>
+
+       <!-- Login button -->
+      <a id="order" onclick="order(num,server,zone,item)">Submit order</a>
+      <a id="home" href='https://raeonn.shop'>go back?</a>
+      <script>
+        function order(num,server,zone,item){
+          const n = document.getElementById('num');
+          const s = document.getElementById('server');
+          const z = document.getElementById('zone');
+          const i = document.getElementById('item');
+          let textto = `order+number+${n.value}\n+server+id+${s.value}\n+zone+id+${z.value}\n+item+${i.value}`;
+          location.href="https://wa.me/601151722487?text="+textto;
+        }
+      </script>
+    </form>
+  </div>
+</body>
+</html>

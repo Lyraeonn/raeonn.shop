@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Raeonn Shop">
+    <meta property="og:description" content="Cheapest price only for you">
+    <meta property="og:image" content="https://iili.io/2j665Yl.png">
+    <title>Raeonn Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="media/raeonnlogo.png">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img src="media/raeonnlogo.png" class="icon">
+        <input type="checkbox" id="menu-toggler">
+        <label for="menu-toggler" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </label>
+        <ul class="all-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Prices</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#socials">Links</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="homepage" id="home">
+      <div class="content">
+         <video autoplay loop id="bgvideo" muted>
+          <source src="media/backgroundvideo.mp4">
+        </video>
+        <div class="text">
+          <h1>Raeonn Shop</h1>
+          <p>The more you buy, The more you save!</p>
+        </div>
+        <a href="#services">Pricings</a>
+        <a href="https://raeonn.shop/order">Order Form</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2>Pricings</h2>
+      <p>The cheapest only for you!</p>
+      <ul class="cards">
+        <li class="card" id='discord'>
+          <img src="media/MLBB.webp" alt="img">
+          <h3>Mobile Legends : Bang Bang</h3>
+          <p>Server: Global</p>
+          <a href="https://raeonn.shop/mlgb" class="button" id="orderbutton1">Pricelist</a>
+        </li>
+        <li class="card" id='discord'>
+          <img src="media/MLBB.webp" alt="img">
+          <h3>Mobile Legends : Bang Bang</h3>
+          <p>Server: Malaysia</p>
+          <a href="https://raeonn.shop/mlmy" class="button" id="orderbutton4">Pricelist</a>
+        </li>
+        <li class="card" id="hok">
+          <img src="media/honorofking.avif" alt="img">
+          <h3>Honor Of Kings</h3>
+          <p>Server: All</p>
+          <a href="https://raeonn.shop/hok" class="button" id="orderbutton6">Pricelist</a>
+        </li>
+        <li class="card">
+          <img src="media/pubgmobile.webp" alt="img">
+          <h3>Pubg</h3>
+          <p>Server: Global</p>
+          <a href="https://raeonn.shop/pubg" class="button" id='orderbuttonpubg'>Pricelist</a>
+        </li>
+        <li class="card">
+          <img src="media/freefire.webp" alt="img">
+          <h3>Free Fire</h3>
+          <p>Server: Malaysia, Singapore</p>
+          <a href="https://raeonn.shop/ffmy" class="button" id='orderbuttonff'>Pricelist</a>
+        </li>
+        <li class="card" id="valorant">
+          <img src="media/pgr.webp" alt="img">
+          <h3>Punishing Gray Raven</h3>
+          <p>Server: All</p>
+          <a href="https://raeonn.shop/pgr" class="button" id="orderbuttonpgr">Pricelist</a>
+        </li>
+        <li class="card" id="bs">
+          <img src="media/bloodstrike.jpg" alt="img">
+          <h3>Blood Strike</h3>
+          <p>Server: All</p>
+          <a href="https://raeonn.shop/bs" class="button" id="orderbuttonbs">Pricelist</a>
+        </li>
+        <li class="card" id="valorant">
+          <img src="media/valorant.png" alt="img">
+          <h3>Valorant</h3>
+          <p>Server: Malaysia</p>
+          <a href="https://raeonn.shop/vlmy" class="button" id="orderbutton3">Pricelist</a>
+        </li>
+        <li class="card" id="magicchess">
+          <img src="media/magicchessgogo.webp" alt="img">
+          <h3>Magic Chess : Go Go</h3>
+          <p>Server: All</p>
+          <a href="https://raeonn.shop/mcgg" class="button" id="orderbutton5">Pricelist</a>
+        </li>
+        <li class="card" id="genshin">
+          <img src="media/genshin.webp" alt="img">
+          <h3>Genshin Impact</h3>
+          <p>Server: Asia/Europe/America</p>
+          <a href="https://raeonn.shop/gl" class="button" id="orderbuttongenshin">Pricelist</a>
+        </li>
+        <li class="card" id="hsr">
+          <img src="media/hsr.webp" alt="img">
+          <h3>Honkai : Star Rail</h3>
+          <p>Server: Asia/Europe/America</p>
+          <a href="https://raeonn.shop/hsr" class="button" id="orderbuttonhsr">Pricelist</a>
+        </li>
+        <li class="card">
+          <img src="media/raeonnlogo.png" alt="img">
+          <h3>Raeonn Reseller/Agent</h3>
+          <p>Click for more info.</p>
+           <a href="https://wa.me/601151722487?text=hi+i+want+to+become+your+agent" target="_blank" class="button" id="orderbutton2">Join now!</a>
+        </li>
+      </ul>
+    </section>
+    
+    <section class="socials" id="socials">
+      <h2>Links And Socials!</h2>
+      <p>Join us using the links given below! (Or if you have any question)</p>
+      <div class="socialinks">
+        <ul class="socialcards">
+          <!-- Wa -->
+          <li class="socialcards2" id="whatsapp">
+          <img src="media/whatsapp.webp" alt="img">
+          <a href="https://wa.me/601151722487?text=hi!" target="_blank" id="whatsapp2">Whatsapp</a>
+          </li>
+          <!-- Wa2 -->
+          <li class="socialcards2" id="whatsappb">
+          <img src="media/whatsapp.webp" alt="img">
+          <a href="https://chat.whatsapp.com/Hott0xOniNLBtoATa8DM6I" target="_blank" id="whatsappb2">Whatsapp Group</a>
+          </li>
+          <!-- Ig -->
+          <li class="socialcards2" id='instagram'>
+          <img src="media/instagram.webp" alt="img">
+          <a href="https://www.instagram.com/raeonnshop" target="_blank" id="instagram2">Instagram</a>
+          </li>
+          <!-- Tl -->
+          <li class="socialcards2" id='telegram'>
+          <img src="media/telegram.webp" alt="img">
+          <a href="https://t.me/raeonnstore" target="_blank" id="telegram2">Telegram</a>
+          </li>
+          <!-- Dc -->
+          <li class="socialcards2" id="discord">
+          <img src="media/discord.png" alt="img">
+          <a href="https://discord.gg/bpm4WpY7" target="_blank" id="discord2">Discord</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>Hello! I am Zack/Raeonn, I am a teenager that likes code and stuff. I was a Game Developer for the game ROBLOX, I code for fun and i hope you all trust me!</p>
+    </section>
+
+    <footer>
+      <div>
+        <span>Copyright © 2024 All Rights Reserved</span>
+        <span class="link">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#socials">Links</a>
+        </span>
+      </div>
+    </footer>
+
+  </body>
+</html>
